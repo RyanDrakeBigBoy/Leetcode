@@ -1,4 +1,6 @@
-# Convert the input string to a character array.
+class Solution:
+    def reverseVowels(self, s: str) -> str:
+        # Convert the input string to a character array.
         word = list(s)
         start = 0
         end = len(s) - 1
